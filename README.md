@@ -78,12 +78,3 @@ Advanced retrieval techniques are applied to improve response relevance and redu
 
 ---
 
-## 👤 Author
-**Atluri Bharath Kumar**  
-AI / ML Engineer — Automation, LLMOps & RAG Systems  
-🔗 LinkedIn: https://www.linkedin.com/in/atluri-bharath-kumar-ba057a157/
-
----
-
-## 📄 License
-This project is intended for educational and portfolio purposes.
