@@ -6,6 +6,7 @@ packages = [
     "ddgs",
     "langchain-openai"
     ]
+
 for pkg in packages:
     try:
         version = importlib.metadata.version(pkg)
