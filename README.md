@@ -12,7 +12,7 @@ The assistant is designed to support intelligent product discovery, comparison, 
 - Integration of static catalogs with live web scraping using beautifulsoup4, Selenium WebDriver 
 - Multi-step reasoning using agent-based workflows using langchain and MCP
 - Web Search feedback loop for realtime information retrival 
-- Production-ready backend and deployment pipeline  
+- Production-ready backend and deployment pipeline using github actions, and AWS ECR+EKS
 
 ---
 
@@ -52,6 +52,7 @@ The architecture supports extensibility for new data sources and reasoning tools
 ---
 
 ## 📈 Use Cases
+- Webscraping of web based programming documentation for CAE specific tools (Altair, Ansys, Abaqus, LS-Dyna) for generative AI based coding
 - Product discovery and recommendation  
 - Feature comparison and specification lookup  
 - Price and availability insights  
