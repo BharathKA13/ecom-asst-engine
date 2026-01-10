@@ -8,10 +8,10 @@ The assistant is designed to support intelligent product discovery, comparison, 
 ---
 
 ## 🎯 Key Capabilities
-- Conversational product search and Q&A  
-- Integration of static catalogs with live web data  
-- Multi-step reasoning using agent-based workflows  
-- Real-time responses with source-aware grounding  
+- Conversational-AI for product search and Q&A  
+- Integration of static catalogs with live web scraping using beautifulsoup4, Selenium WebDriver 
+- Multi-step reasoning using agent-based workflows using langchain and MCP
+- Web Search feedback loop for realtime information retrival 
 - Production-ready backend and deployment pipeline  
 
 ---
@@ -35,8 +35,8 @@ The architecture supports extensibility for new data sources and reasoning tools
 - **LLMs:** Large Language Models for conversational responses  
 - **RAG Framework:** Retrieval-Augmented Generation pipelines  
 - **Agents:** Multi-step reasoning and tool calling  
-- **Vector Stores:** FAISS / Chroma  
-- **Backend:** FastAPI  
+- **Vector Stores:** AstraDB  
+- **Backend:** FastAPI, Streamlit
 - **Deployment:** Docker, CI/CD, Cloud-ready infrastructure  
 
 ---
