@@ -34,10 +34,11 @@ The architecture supports extensibility for new data sources and reasoning tools
 ## 🔧 Core Technologies
 - **LLMs:** Large Language Models for conversational responses  
 - **RAG Framework:** Retrieval-Augmented Generation pipelines  
-- **Agents:** Multi-step reasoning and tool calling  
+- **Agents:** Multi-step reasoning and tool calling
+- **Embeddings:** langchain-google-genai, langchain-astradb (semantic search)  
 - **Vector Stores:** AstraDB  
-- **Backend:** FastAPI, Streamlit
-- **Deployment:** Docker, CI/CD, Cloud-ready infrastructure  
+- **Backend:** FastAPI, Streamlit, Ragas(evaluation)
+- **Deployment:** Docker, CI/CD, Cloud-ready infrastructure using GithubActions + ECR + EKS
 
 ---
 
@@ -52,7 +53,7 @@ The architecture supports extensibility for new data sources and reasoning tools
 ---
 
 ## 📈 Use Cases
-- Webscraping of web based programming documentation for CAE specific tools (Altair, Ansys, Abaqus, LS-Dyna) for generative AI based coding
+- Webscraping of web based programming documentation for CAE specific tools (Altair, Ansys, Abaqus, LS-Dyna) for generative AI based agentic coding (Ongoing)
 - Product discovery and recommendation  
 - Feature comparison and specification lookup  
 - Price and availability insights  
