@@ -34,7 +34,7 @@ The architecture supports extensibility for new data sources and reasoning tools
 ## 🔧 Core Technologies
 - **LLMs:** Large Language Models for conversational responses  
 - **RAG Framework:** Retrieval-Augmented Generation pipelines  
-- **Agents:** Multi-step reasoning and tool calling
+- **Agents Workflow:** Agent orchestration and tool calling with Langgraph
 - **Embeddings:** langchain-google-genai, langchain-astradb (semantic search)  
 - **Vector Stores:** AstraDB  
 - **Backend:** FastAPI, Streamlit, Ragas(evaluation)
